@@ -1,0 +1,37 @@
+Deep Learning Worksheet - 2
+
+1) B)
+
+2) A)
+
+3) C)
+
+4) B)
+
+5) C)
+
+6) B)
+
+7) D)
+
+8) C)
+
+9) A) , B)
+
+10) A),B) and D)
+
+11) Sigmoid
+
+12)The learning rate controls how quickly the model is adapted to the problem.
+A learning rate that is too large can cause the model to converge too quickly to a suboptimal solution, 
+whereas a learning rate that is too small can cause the process to get stuck.
+
+13)In a network of n hidden layers, n derivatives will be multiplied together. 
+If the derivatives are large then the gradient will increase exponentially as we propagate down the model until they eventually explode, and this is what we call the problem of exploding gradient. 
+Alternatively, 
+if the derivatives are small then the gradient will decrease exponentially as we propagate through the model until it eventually vanishes, 
+and this is the vanishing gradient problem.
+
+14)A batch is the complete dataset.
+Iterations is the number of batches of data the algorithm has seen (or simply the number of passes the algorithm has done on the dataset).
+Epochs is the number of times a learning algorithm sees the complete dataset.
