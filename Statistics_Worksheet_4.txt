@@ -1,0 +1,37 @@
+# Statistics - WORKSHEET 4 #
+
+1) A)
+
+2) A)
+
+3) B)
+
+4) B)
+
+5) C)
+
+6) A)
+
+7) B)
+
+8) A)
+
+9) C)
+
+10) normal distribution the mean is zero and the standard deviation is 1.The standard normal distribution has two parameters: the mean and the standard deviation.
+    Normal distributions are symmetrical, but not all symmetrical distributions are normal.
+
+11) For the dealing of missing values in a dataset there should be 4 primary approached that recommend:-
+    1)If the missing values are grater than 90 percet in the column we can directly delete that perticular column
+    2)If the missing values are in between 50 to 80 percent then we can replace that values by mean value
+    3)If the column has any kind of a co-relation with respect to another column then we can relate that perticular column with respect to that corelated column and fill the values accordingly.
+    4)if the dataset has a columns related with every other column then we can create a luxury column
+
+12)An AB test is an example of statistical hypothesis testing, a process whereby a hypothesis is made about the relationship between two data sets and those data sets are then 
+   compared against each other to determine if there is a statistically significant relationship or not. 
+
+13) Yes.but it is completely depend on the business problem and a dataset
+
+14) Linear regression is basically used in a supervised learning in which we know what is out target column.Basically it deals with the continuos data where we can predict eg.house pricing,share market analysis etc.Linear regression contains linear line graph which actually shows the upside or downside analysis.
+
+15) Descriptive and Inferencial Statistics are the two branches of statistics.
