@@ -1,0 +1,49 @@
+#DEEP LEARNING - WORKSHEET 3 #
+
+1) B)
+
+2) C)
+
+3) D)
+
+4) B)
+
+5) C)
+
+6) B)
+
+7) D)
+
+8) D)
+
+9) A) and B)
+
+10) A) , B) and D)
+
+11) If we don't use activation fuction in neaural network then it will not convert non-linear data into linear data in order to supply the model
+    for the training purpose
+
+12) Forward Propagation:-Forward propagation (or forward pass) refers to the calculation and storage of intermediate variables (including outputs) for a neural network in order from the input layer to the output layer
+    In forward propagation activation functions are used to convert non-linear data into linear data to feed the data for the training.Forward propagation complete the half cycle of single epoch.
+
+    Backword Propogation :- After completing the forward propagation error generated and it should be minimized accordingly in order to update the weights.so by providing different values of weights the error will get minimized 
+    and this is known as a back proposition.
+
+13) Batch Gradient Descent:- n Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training examples and then use that mean gradient to update our parameters. 
+    So that’s just one step of gradient descent in one epoch.Batch Gradient Descent is great for convex or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution.
+    
+    Storchastic Gradient Decsent :- In Batch Gradient Descent we were considering all the examples for every step of Gradient Descent. But what if our dataset is very huge. Deep learning models crave for data. The more the data the more chances of a model to be good. 
+    Suppose our dataset has 5 million examples, then just to take one step the model will have to calculate the gradients of all the 5 million examples. 
+    This does not seem an efficient way. To tackle this problem we have Stochastic Gradient Descent.
+
+    Mini Batch Gradient Decsent:- We have seen the Batch Gradient Descent. We have also seen the Stochastic Gradient Descent. Batch Gradient Descent can be used for smoother curves. SGD can be used when the dataset is large.
+    Batch Gradient Descent converges directly to minima. SGD converges faster for larger datasets. 
+    But, since in SGD we use only one example at a time, we cannot implement the vectorized implementation on it. This can slow down the computations.
+    To tackle this problem, a mixture of Batch Gradient Descent and SGD is used.
+
+14) GD converges faster for larger datasets. But, since in SGD we use only one example at a time, we cannot implement the vectorized implementation on it. This can slow down the computations. 
+    To tackle this problem, a mixture of Batch Gradient Descent and SGD is used.
+    Neither we use all the dataset all at once nor we use the single example at a time. We use a batch of a fixed number of training examples which is less than the actual dataset and call it a mini-batch.
+
+15) Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.
+    It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems.
