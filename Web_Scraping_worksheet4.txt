@@ -1,0 +1,32 @@
+#WEB SCRAOING - WORKSHEET 4#
+
+1) D)
+
+2) C)
+
+3) B)
+
+4) C)
+
+5) A)
+
+6) B)
+
+7) B)
+
+8) C)
+
+9) C)
+
+10) D)
+
+11) C)
+
+12) A)
+
+13) C)
+
+14) A)
+
+15) find()- It just returns the result when the searched element is found in the page.And the return type will be <class 'bs4.element.Tag'>
+    find_all()- It returns all the matches (i.e) it scans the entire document and returns all the results and the return type will be <class 'bs4.element.ResultSet'>
