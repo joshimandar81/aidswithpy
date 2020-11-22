@@ -1,0 +1,50 @@
+# PYTHON WORKSHEET - WORKSHEET 4 #
+
+1) B)
+
+2) B)
+
+3) B)
+
+4) D)
+
+5) C)
+
+6) B)
+
+7) C)
+
+8) A)
+
+9) B) and C)
+
+10) A),B) and D)
+
+11) Interpreter translates just one statement of the program at a time into machine code. Compiler scans the entire program and translates the whole of it into machine code at once. 
+    An interpreter takes very less time to analyze the source code. However, the overall time to execute the process is much slower.Interpreter is used in python language.
+
+12) PYTHONPATH is an environment variable which you can set to add additional directories where python will look for modules and packages. 
+    For most installations, you should not set these variables since they are not needed for Python to run. Python knows where to find its standard library.
+
+13) Python String strip() unction will remove leading and trailing whitespaces. If you want to remove only leading or trailing spaces, use lstrip() or rstrip() function instead.
+
+14) 
+
+
+15) num = int(input("Enter a number: "))
+
+    # initialize sum
+    sum = 0
+
+    # find the sum of the cube of each digit
+      temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+
+# display the result
+if num == sum:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is not an Armstrong number")

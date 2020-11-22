@@ -1,0 +1,58 @@
+#Deep Learning Worksheet 5#
+
+1) D)
+
+2) A)
+
+3) D)
+
+4) A)
+
+5) B)
+
+6) B)
+
+7) D)
+
+8) B)
+
+9) A),C) and D)
+
+10) C) and D)
+
+11) Convex Optimization:- A convex optimization problem is a problem where all of the constraints are convex functions, and the objective is a convex function if minimizing, or a concave function if maximizing.
+    Non-Convex Optimization:- A non-convex optimization problem is any problem where the objective or any of the constraints are non-convex
+    Such a problem may have multiple feasible regions and multiple locally optimal points within each region.  It can take time exponential in the number of variables and constraints to determine that a non-convex problem is infeasible, 
+    that the objective function is unbounded, or that an optimal solution is the "global optimum" across all feasible regions.
+
+12) a point at which a function of two variables has partial derivatives equal to zero but at which the function has neither a maximum nor a minimum value.
+
+13) Nesterov Accelerated Gradient and Momentum:-
+    The goal is to optimize some parameters, θ. This is going to involve gradient descent, so we will be evaluating the gradient of an objective function of those parameters, ∇f(θ), and moving a certain distance in the direction of the negative of the gradient,
+    the distance being related to the learning rate, ε. There will also be a momentum term involved, with momentum coefficient μ. 
+    The value of the parameters, learning rate and momentum at iteration t will be indicated by a subscript, e.g. θt.
+
+    A definition which holds across all the methods discussed here is that the parameters at iteration t+1 are related to the parameters at iteration t by an update that involves the addition of a velocity vector, v:
+
+                       θt+1=θt+vt+1⟹vt+1=θt+1−θt
+
+    Classical Momentum:-
+    The classical momentum velocity vector is defined by Bengio as:
+
+    vt=μt−1vt−1−εt−1∇f(θt−1)
+
+    Sutskever gives the same definition but without any t subscript on the velocity vector or the momentum coefficient.
+
+    We can write out the full update for classical momentum as:
+
+    θt+1=θt+μtvt−εt∇f(θt)
+    with velocity:
+
+    vt+1=μtvt−εt∇f(θt)
+
+14) The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network. If either occurs, loss gradients will either be too large or too small to flow backwards beneficially,
+    and the network will take longer to converge, if it is even able to do so at all.
+    Matrix multiplication is the essential math operation of a neural network. In deep neural nets with several layers, one forward pass simply entails performing consecutive matrix multiplications at each layer, between that layer’s inputs and weight matrix. 
+    The product of this multiplication at one layer becomes the inputs of the subsequent layer, and so on and so forth.
+
+15)  Internal Covariate Shift as the change in the distribution of network activations due to the change in network parameters during training. In neural networks, the output of the first layer feeds into the second layer, the output of the second layer feeds into the third, and so on.

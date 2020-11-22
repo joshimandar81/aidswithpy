@@ -1,0 +1,24 @@
+# SQL - WORKSHEET 4 #
+
+1) SELECT AVG(orderDate)
+   FROM orders;
+
+2) SELECT AVG(quantityOrdered)
+   FROM ordersdetails;
+
+3) SELECT MSRP
+   FROM products
+   WHERE MSRP = 
+    (SELECT MIN(MSRP) FROM products);
+
+4) SELECT MAX(quantityInStock)
+   FROM products;
+
+5) SELECT MAX(orderNumber)
+   FROM orderdetails;
+
+6) SELECT firstname
+   FROM employees
+   WHERE MAX(buyPrice) from products;
+
+7)
