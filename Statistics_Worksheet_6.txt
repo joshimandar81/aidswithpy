@@ -1,0 +1,37 @@
+# Statistics Worksheet 6 #
+
+1) B)
+
+2) C)
+
+3) A)
+
+4) A)
+
+5) B)
+
+6) A)
+
+7) B)
+
+8) D)
+
+9) A)
+
+10) a theorem describing how the conditional probability of each of a set of possible causes for a given observed outcome can be computed from knowledge of the probability 
+    of each cause and the conditional probability of the outcome of each cause.
+
+11) A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. 
+    If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score of 1.0 would indicate a value that is one standard deviation from the mean. 
+    Z-scores may be positive or negative.
+    
+12) A t-test is used as a hypothesis testing tool, which allows testing of an assumption applicable to a population. 
+    A t-test looks at the t-statistic, the t-distribution values, and the degrees of freedom to determine the statistical significance. 
+    To conduct a test with three or more means, one must use an analysis of variance.
+
+13) each of the 100 equal groups into which a population can be divided according to the distribution of values of a particular variable.
+
+14) a statistical method in which the variation in a set of observations is divided into distinct components.
+
+15) One-way ANOVA can help you know whether or not there are significant differences between the groups of your independent variables (such as USA vs Canada vs Mexico when testing a Location variable). 
+    You may want to test multiple independent variables (such as Location, employment status or education).
