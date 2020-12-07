@@ -1,0 +1,27 @@
+#PYTHON WORKSHEET 5 #
+
+1) D)
+
+2) D)
+
+3) B)
+
+4) D)
+
+5) C)
+
+6) D)
+
+7) B)
+
+8) D)
+
+9) D)
+
+10) B) C)
+
+11) The major difference is that sets, unlike lists or tuples, cannot have multiple occurrences
+    of the same element and store unordered values.
+    List are mutable while sets or tuples are immutable.
+
+12) 
