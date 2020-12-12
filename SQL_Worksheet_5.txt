@@ -1,0 +1,17 @@
+#SQL WORKSHEET 5#
+
+1) SELECT * FROM movie;
+
+2) SELECT movie_id FROM movie
+   ORDER BY runtime DESC
+   LIMIT 1;
+
+3) SELECT title FROM movie
+   ORDER BY revenue DESC
+   LIMIT 1;
+
+4) SELECT MAX(budget) AS title FROM movie;
+
+5) SELECT movie_id,gender_id,person_id,character_name,cast_order FROM movie_cast;
+
+6) 
