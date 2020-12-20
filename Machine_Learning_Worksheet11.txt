@@ -1,0 +1,55 @@
+#Machine Learning - Worksheet 11#
+
+1) C)
+
+2) B)
+
+3) A)
+
+4) C)
+
+5) C)
+
+6) A)
+
+7) B)
+
+8) C)
+
+9) B) D)
+
+10) A) B)
+
+11) A) D)
+
+12) the formulae for r square is = 1 - RSE
+    where , RSE = REsidual Standard Error
+    where RSE can be calculated by 
+
+            RSE = sum of (y1 - y2)^2 / sum of (y1 - y3)^2
+               where, y1 = actual values
+                      y2 = predicted values
+                      y1 - y3  = Degree of Freedom
+
+   R sqaure method is used to find out the fiiting of train values.
+   If R sqaure value is high which means that best fitting model.
+
+13) It is a function that measures the performance of a Machine Learning model for given data. 
+    Cost Function quantifies the error between predicted values and expected values and presents it in the form of a single real number.
+    Depending on the problem Cost Function can be formed in many different ways.
+
+14) SST is the maximum sum of squares of errors for the data because the minimum information of Y itself was only used for the baseline model.
+    The difference between SST and SSR is remaining unexplained variability of Y after adopting the regression model, which is called as sum of squares of errors (SSE).
+    A relatively small SSE can be interpreted as a “good fit” of the model. The usefulness of the regression model is tested using F test as a global evaluation of the regression model.
+
+15) The various metrics used to evaluate the results of the prediction are : Mean Squared Error(MSE) Root-Mean-Squared-Error(RMSE). Mean-Absolute-Error(MAE)
+    
+    MSE = 1/n sum of (y1-y2)^2
+
+    RMSE = 1/n sum of root of (y1-y2)^2
+
+    MAE = 1/n sum of determinent of y1 - y2
+
+    Where , y1 = actual values
+            y2 = Predicted values
+
